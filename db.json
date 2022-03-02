@@ -1,0 +1,129 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "name": "dsfve",
+      "email": "abcwedcr",
+      "mobile": "advwfety4",
+      "address": "qefwgre",
+      "service": ""
+    },
+    {
+      "id": 3,
+      "name": "sds",
+      "email": null,
+      "mobile": "dfc",
+      "address": "dfvg"
+    },
+    {
+      "id": 4,
+      "name": "asdd",
+      "email": "asdfc",
+      "mobile": null,
+      "address": null
+    },
+    {
+      "id": 5,
+      "name": "qwe",
+      "email": "qwer",
+      "mobile": "wer",
+      "address": "aswdef"
+    },
+    {
+      "id": 6,
+      "name": "123",
+      "email": "456",
+      "mobile": "87654",
+      "address": "asdfgh"
+    },
+    {
+      "id": 7,
+      "name": "anand",
+      "email": "kundankumar0697@gmail.com",
+      "mobile": "123456789",
+      "address": "abc"
+    }
+  ],
+  "signup": [
+    {
+      "name": "asdf",
+      "email": "dscfrv",
+      "mobile": "123456",
+      "password": "3245",
+      "id": 1
+    },
+    {
+      "name": "asdf",
+      "email": "sdcfv",
+      "mobile": "12345",
+      "password": "asdf",
+      "id": 2
+    },
+    {
+      "name": "abd",
+      "email": "b170055@nitsikkim.ac.in",
+      "mobile": "123454678",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "Ac3",
+      "email": "12345@gmail.com",
+      "mobile": "123456789009876",
+      "password": "qwertyuiop",
+      "id": 5
+    },
+    {
+      "name": "abc",
+      "email": "b170055@nitsikkim.ac.in",
+      "mobile": "12345678",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "asd",
+      "email": "asd",
+      "mobile": "ads",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Restaurent Signup </h1>
+                    <h5>Get Free to Membership @</h5>
+                </div>
+                <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                    <div class="mb-3">
+                      <label  class="form-label">Name</label>
+                      <input  formControlName="name" placeholder="Enter your Good Name" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input formControlName="email" placeholder="Enter your Email Id" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        
+                      </div>
+                      <div class="mb-3">
+                        <label  class="form-label">Mobile No</label>
+                        <input  formControlName="mobile" placeholder="Enter your Mobile no" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        
+                      </div>
+                    <div class="mb-3">
+                      <label  class="form-label">Password</label>
+                      <input formControlName="password" placeholder="Enter your Password" type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label  class="form-label"> Confirm Password</label>
+                        <input formControlName="conform password" placeholder="Enter your Confirm" type=" conform password " class="form-control" id="exampleInputPassword1">
+                      </div>
+                    
+                    <button type="submit" class="btn btn-primary">Signup</button>
+                  </form>
+                  <a routerLink="/login"> Already Member ? click to login!</a>
+            </div>
+        </div>
+    </div>
+</div>
